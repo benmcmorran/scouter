@@ -37,6 +37,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
+      - name: Test
+        run: npm run test
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
