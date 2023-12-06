@@ -7,7 +7,16 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="commands">
+        <button id="run">Run</button>
+      </div>
+      <div id="code">
+        <input type="text" id="search" list="known-presets" />
+        <datalist id="known-presets"></datalist>
+      </div>
+      <div id="map"></div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
