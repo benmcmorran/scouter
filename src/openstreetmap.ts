@@ -61,7 +61,7 @@ function buildIndex(): IPresetTermIndex {
 
 const index: IPresetTermIndex = buildIndex();
 
-export const presetSearchTerms: string[] = Object.keys(index);
+export const presetSearchTerms: string[] = Object.keys(index).sort();
 
 // See https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#Escaping
 export function escapeForOverpassQL(content: string): string {

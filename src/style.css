@@ -21,11 +21,8 @@ body {
   display: grid;
   min-height: 100vh;
   transition: 300ms;
-  grid: "commands commands" 30px "code map" auto / 50% 50%;
-}
-
-#app:has(#map:hover) {
-  grid-template-columns: 20% 80%;
+  /* TODO: add breakpoints or minmax so that this styles better on small screens */
+  grid: "commands commands" 30px "code map" auto / 40% 1fr;
 }
 
 #commands {

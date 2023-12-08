@@ -11,7 +11,9 @@
     "format": "prettier . --write"
   },
   "dependencies": {
+    "@turf/turf": "^6.5.0",
     "leaflet": "^1.9.4",
+    "monaco-editor": "^0.45.0",
     "osmtogeojson": "^3.0.0-beta.5"
   },
   "devDependencies": {
